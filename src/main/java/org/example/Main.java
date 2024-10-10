@@ -17,6 +17,8 @@ public class Main {
         // Build the custom query
         String customQuery = buildCustomQuery(configurationQuery);
 
+        System.out.println("HELLO");
+
         // Print the custom query
         System.out.println(customQuery);
     }
